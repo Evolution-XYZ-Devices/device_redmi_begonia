@@ -64,6 +64,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtinyxml
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
+
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
