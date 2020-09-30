@@ -2,3 +2,5 @@ type vpud_device, dev_type;
 type vcu_device, dev_type;
 type fp_device, dev_type;
 type SUB2AF_device, dev_type;
+
+typeattribute system_block_device super_block_device_type;
