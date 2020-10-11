@@ -9,6 +9,6 @@
     "remote"     : "github",
     "repository" : "TheMalachite/demonslayer-begonia",
     "target_path": "kernel/xiaomi/begonia",
-    "branch"     : "Shinobu-AOSP"
+    "branch"     : "Muzan-AOSP"
   }
 ]
