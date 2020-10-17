@@ -174,6 +174,29 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3-impl-mediatek \
+    fstb.cfg \
+    libmtkperf_client \
+    libmtkperf_client_vendor \
+    libpowerhal \
+    libpowerhalwrap \
+    libpowerhalwrap_vendor \
+    power_native_test_v_1_0 \
+    power_legacy_test_v_1_0 \
+    power.mt6785 \
+    powercontable.xml \
+    powerscntbl.xml \
+    vendor.mediatek.hardware.mtkpower@1.0 \
+    vendor.mediatek.hardware.mtkpower@1.0-impl \
+    vendor.mediatek.hardware.mtkpower@1.0-service \
+    vendor.mediatek.hardware.netdagent@1.0 \
+    vendor.mediatek.hardware.power@1.1 \
+    vendor.mediatek.hardware.power@2.0 \
+    vendor.mediatek.hardware.power@2.1 \
+    vendor.mediatek.hardware.power@2.1-impl
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
