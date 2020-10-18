@@ -261,6 +261,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_PACKAGES += \
+    thermal.mt6785 \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service
 
