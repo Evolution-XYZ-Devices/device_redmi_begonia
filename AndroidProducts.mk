@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_begonia.mk
+    $(LOCAL_DIR)/evolution_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    evolution_begonia-user \
+    evolution_begonia-userdebug \
+    evolution_begonia-eng

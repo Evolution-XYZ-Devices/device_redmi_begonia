@@ -16,9 +16,9 @@ INITIAL_COPYRIGHT_YEAR=2019
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-POTATO_ROOT="${MY_DIR}"/../../..
+EVO_ROOT="${MY_DIR}"/../../..
 
-HELPER="${POTATO_ROOT}/vendor/potato/build/tools/extract_utils.sh"
+HELPER="${EVO_ROOT}/vendor/evolution/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -63,7 +63,7 @@ function blob_fixup() {
 }
 
 # Initialize the helper for common device
-setup_vendor "${DEVICE}" "${VENDOR}" "${POTATO_ROOT}" true "${CLEAN_VENDOR}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${EVO_ROOT}" true "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"

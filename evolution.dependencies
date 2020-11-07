@@ -1,0 +1,14 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "Evolution-X-Devices/kernel_redmi_begonia",
+    "target_path": "kernel/redmi/begonia",
+    "revision"   : "elle"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Evolution-X-Devices/vendor_redmi_begonia",
+    "target_path": "vendor/redmi/begonia",
+    "revision"   : "elle"
+  }
+]
