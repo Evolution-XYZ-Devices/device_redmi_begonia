@@ -10,5 +10,11 @@
     "repository" : "Evolution-X-Devices/vendor_redmi_begonia",
     "target_path": "vendor/redmi/begonia",
     "revision"   : "elle"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TheMalachite/android_device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "revision"   : "elle"
   }
 ]
